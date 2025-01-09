@@ -68,5 +68,6 @@ def check_ten_elements(list):
 
 check_ten_elements(list_2)
 
+#--------------------------------------------------------
 # Fråga 3
 # 

@@ -58,15 +58,16 @@
 
 #-------------------------------------------------------
 # Fråga 2 
-list_1 = ["hej", "då", "jag", "None", "kan", "vet", "oj", "sen", "el", "wow"]
+list_1 = ["hej", "då", "jag", None, "kan", "vet", "oj", "sen", "el", "wow"]
 list_2 = ["hej", "då", "jag", "cool", "kan", "vet", "oj", "sen", "el", "wow"]
+list_3 = ["hej", "då", "jag", "cool", "kan", "vet", "oj", "sen", "el"]
 def check_ten_elements(list):
     if len(list) != 10 or None in list:
         raise ValueError("To few or to many elements supposed to be 10 or includes None")
     else:
         print("OK")
 
-check_ten_elements(list_2)
+check_ten_elements(list_3)
 
 #--------------------------------------------------------
 # Fråga 3

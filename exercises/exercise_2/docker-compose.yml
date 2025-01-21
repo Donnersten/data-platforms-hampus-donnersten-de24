@@ -1,0 +1,5 @@
+services: 
+    os_data:
+        build: .
+        volumes:
+            - .:/app
